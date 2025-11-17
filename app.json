@@ -17,7 +17,8 @@
       "buildNumber": "1.0.0",
       "supportsTablet": true,
       "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "We use your location to show local 7-day forecast to protect your car."
+        "NSLocationWhenInUseUsageDescription": "We use your location to show local 7-day forecast to protect your car.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
