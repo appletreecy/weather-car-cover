@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "weather-car-cover",
+    "slug": "weather-car-cover",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.scaocoding.weathercarcover",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We use your location to show local 7-day forecast to protect your car."
+      }
+    },
+    "android": {
+      "package": "com.scaocoding.weathercarcover",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "openWeatherApiKey": "27b920ff5ea60c6b0f30df220a8589e4",
+      "eas": {
+        "projectId": "94f55461-ba19-4b8f-849d-b0ce155aa3b2"
+      }
+    }
+  }
+}
